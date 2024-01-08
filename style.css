@@ -1,0 +1,80 @@
+body {
+  background-color: #B1D4E0;
+  font-family: 'Lemon', serif;
+  font-size: 15px;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 30PX;
+
+}
+
+
+h2{
+  font-family: 'Bungee Spice', sans-serif;
+  font-size:20PX;
+}
+
+a{
+  text-decoration: none;
+  color: #145DA0;
+  transition: 0.3s ease;
+}
+
+a:hover{
+ color: #10BC10
+}
+
+.container{
+  width: 700;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px black solid;
+}
+
+.text-center {
+  text-align: center;
+}
+#profile-image{
+  width: 40%;
+  margin-bottom: 15px;
+  border-radius: 25%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 680px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
